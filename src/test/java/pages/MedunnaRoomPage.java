@@ -7,11 +7,12 @@ import org.openqa.selenium.support.PageFactory;
 import utils.Driver;
 
 public class MedunnaRoomPage {
-    
+
+
+
     public MedunnaRoomPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
-
 
     @FindBy(id = "jh-create-entity")
     public WebElement createANewRoomLink;

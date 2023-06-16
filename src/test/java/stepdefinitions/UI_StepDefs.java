@@ -122,7 +122,7 @@ public class UI_StepDefs {
     public void assert_alert_message() {
 
         WaitUtils.waitFor(1);//For synchronization issue
-        String alertText = medunnaRoomPage.alert.getText();
+        String alertText = medunnaRoomPage.saveButton.getText();
         assertTrue(alertText.contains("A new Room is created"));
 
     }

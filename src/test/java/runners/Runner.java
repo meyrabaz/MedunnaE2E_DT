@@ -10,6 +10,7 @@ import org.junit.runner.RunWith;
         glue = "stepdefinitions",
         tags = "@ui_test",
         dryRun = true
+
 )
 
 public class Runner {
